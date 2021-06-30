@@ -166,7 +166,7 @@ class SunRiseSet:
 
 if __name__ == '__main__':
     place = (27.700769, -85.300140)
-    time_ktm = SunRiseSet(year=2021, month=6, day=29, place=place, date_type='AD', local_offset=5.75)
+    time_ktm = SunRiseSet(year=2021, month=6, day=17, place=place, date_type='AD', local_offset=5.75)
     print(f'Sunrise : {time_ktm.get_time()}\nSunset: {time_ktm.get_time(False)}')
 
     # Sukla means wanning and Krishna means waxing
